@@ -1,0 +1,24 @@
+{
+    "translation_catalog": "settings-system",
+    "entries": [
+        {
+            "path": "system_settings/security/tor",
+            "title": "Tor",
+            "translation_id": "settings_system-tor",
+            "type": "page",
+            "icon": "image://theme/icon-settings-tor",
+            "order": 200,
+            "params": {
+                "source": "/usr/share/jolla-settings/pages/tor/mainpage.qml"
+            }
+        },
+        {
+            "path": "system_settings/security/tor/tor_active",
+            "type": "custom",
+            "params": {
+                "source": "/usr/share/jolla-settings/pages/tor/EnableSwitch.qml",
+                "type": "grid"
+            }
+        }
+    ]
+}
