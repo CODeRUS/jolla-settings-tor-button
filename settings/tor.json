@@ -2,7 +2,7 @@
     "translation_catalog": "settings-system",
     "entries": [
         {
-            "path": "system_settings/security/tor",
+            "path": "system_settings/connectivity/tor",
             "title": "Tor",
             "translation_id": "settings_system-tor",
             "type": "page",
@@ -13,7 +13,7 @@
             }
         },
         {
-            "path": "system_settings/security/tor/tor_active",
+            "path": "system_settings/connectivity/tor/tor_active",
             "type": "custom",
             "params": {
                 "source": "/usr/share/jolla-settings/pages/tor/EnableSwitch.qml",

@@ -114,7 +114,7 @@ Page {
                 TextSwitch {
                     id: enableSwitch
 
-                    property string entryPath: "system_settings/security/tor/tor_active"
+                    property string entryPath: "system_settings/connectivity/tor/tor_active"
 
                     automaticCheck: false
                     checked: activeState
